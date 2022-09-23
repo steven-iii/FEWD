@@ -12,7 +12,7 @@ Styling Suggestions:
 - Make the text the color #05080C
 - Set the page's font-size to 18px and set the line height to 1.5
 - Put 5px solid borders at the top and bottom of the page and use the color #222222
-- Float the Via Dynasty image to the right and give it a little margin on the left
+- Float the Xia Dynasty image to the right and give it a little margin on the left
 - Give the table header cells (`th`) a background color of #222222
 - Give the table cells (`td`) a background color of #eeeeee
 
