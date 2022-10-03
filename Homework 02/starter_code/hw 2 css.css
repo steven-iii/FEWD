@@ -1,0 +1,212 @@
+
+
+/* HEADER */
+
+header {
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+.logo {
+    padding: 10px 30px;
+
+}
+
+.logo a {
+    color: #f2ff00;
+}
+
+.top-box .site-header.logo h1 {
+    color:#f2ff00;
+}
+
+.site-header .logo{
+    color:#f2ff00;
+    font-family: 'Merriweather', serif;
+    text-decoration: none;
+
+}
+
+/* NAV */
+
+
+
+.main-nav {
+    display: block;
+    align-items: center;
+
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    padding: 15px 0;
+    font-family: 'Lato', sans-serif;
+    list-style: none;
+
+
+    
+}
+
+.main-nav li {
+    padding-right: 15px;
+    color: #ffff;
+}
+
+.main-nav a {
+    color: #ffff;
+}
+
+
+.main-nav-item-featured {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.top-box a {
+    text-decoration: none;
+}
+
+/* HERO TEXT */
+
+.second-text {
+    background-color: #adadad;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'lato', sans-serif;
+    border-top: 7.5px solid #f2ff00;
+
+}
+
+.second-text p {
+    font-size: 28px;
+    margin: 0;
+
+}
+
+
+
+/*
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 40px;
+}
+*/
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 15px 0;
+}
+
+.strikeout {
+    text-decoration: line-through;
+}
+
+.underline {
+    text-decoration: underline solid #f2ff00;
+
+}
+
+.main-section {
+    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg') center center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    min-height: 60%;
+    align-items: center;
+    font-family: 'lato', sans-serif;
+
+
+}
+
+.inset-div {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 25px 25px 25px 0;
+    width: 380px;
+    height: 230px;
+    padding: 3%;
+    box-shadow: 0 0 5px rgb(0 0 0 / 75%);
+}
+
+.main-section h2 {
+    font-weight: bold;
+    margin: 0;
+
+}
+
+.main-section .create-a-prof {
+    display: block;
+    background-color: #f2ff00;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    padding: 10px 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 555;
+    border-radius: 5px;
+}
+
+/* BOTTOM NAV / THREE COLIMNS */
+
+.three-column {
+   display: flex;
+   justify-content: center;
+}
+
+.column-content {
+    margin: 10px 0;
+    padding: 2%;
+}
+
+.column-content h1 {
+    font-weight: 700;
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+    
+}
+
+.call-to-action {
+    display: block;
+    background-color: lightgray;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    padding: 10px 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.three-column-spacer {
+    border-right: 1px solid lightgray;
+    margin: 10px 0;
+    padding: 2%;
+}
+
+/* FOOTER */
+
+footer {
+    display: block;
+
+}
+
+.site-footer {
+    color: #fff;
+    padding: 5px 25px;
+    background-color: #000000;
+
+}
